@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.container{
+ border: 6px solid black;
+
+}
+.flex-item{
+    color:blue;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1 rem;
+}
+.item-1{
+    background-color: brown;
+}
