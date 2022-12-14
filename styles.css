@@ -3,6 +3,28 @@ body{
 }
 .container{
  border: 6px solid black;
+ display:flex;
+ height: 200px;
+ flex-wrap: wrap;
+ align-content:flex-start;
+
+
+ /* display:flex;   */
+  /*container bydefault shows horizontal when display property is flex then it shows horizontal axes*/
+ /* flex-direction: row;  /*  it represent the how items are stored in container  by default its value is row ..column, row ,row-reverse,column-reverse*/
+
+ /* flex-wrap: wrap;  control the wrapping of flex items within the container ..nowrap,wrap,wrap-reverse */
+
+
+ /*******shorthandd for flex direction and flex wrap****/
+/* 
+ flex-flow: row-reverse wrap-reverse;
+ justify-content: flex-start; */
+ /* Align items and distribute any extra spacing in the parent container .The alignment is always along the main axis*/
+ /*flex-start,flex-end center space-between space-asround space-evenly*/
+
+ /* align-items: baseline; */
+
 
 }
 .flex-item{
@@ -13,4 +35,50 @@ body{
 }
 .item-1{
     background-color: brown;
+    flex:2 3 200px; /* flex is shorthand of flex-grow,flex-shrink,flex-basis ,,*/
 }
+.item-2{
+    background-color: blueviolet;
+}
+.item-3{
+    background-color: violet;
+}
+.item-4{
+    background-color: red;
+}
+.item-5{
+    background-color: yellow;
+}
+.item-6{
+    background-color: brown;
+}
+.item-7{
+    background-color: green;
+    order: 1;  
+
+}
+.item-8{
+    background-color: greenyellow;
+    order:3;
+}
+.item-9{
+    background-color: black;
+    order:12;
+}
+.item-12{
+    background-color: yellow;
+    align-self: center;
+}
+.item-10{
+    background-color: darkred;
+}
+.item-11{
+    background-color: darkcyan;
+}
+.item-12{
+    background-color: darkgrey;
+}
+.item-13{
+    background-color: darkmagenta;
+}
+
