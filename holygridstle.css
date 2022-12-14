@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.flex-main{
+background-color: black;
+}
+.flex-main .flex-nav 
+{
+background-color: aqua;
+}
+.flex-aside {
+    background-color: blue;
+}
+.flex-article{
+    background-color: azure;
+}
+.flex-header{
+    background-color: blueviolet;
+}
