@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: yellow;
+}
+nav ul{
+
+    display:flex;
+
+
+}
